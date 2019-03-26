@@ -31,13 +31,13 @@ bfs(value, (item, path) => {
 Output:
 ```javascript
 1. { item: { a: { arr: [ 1, 2, 3, 4 ], b: { c: '1' } } }, path: [] }
-2. { item: { arr: [ 1, 2, 3, 4 ], b: { c: '1' } }, path: [ 'a' ] }
-3. { item: [ 1, 2, 3, 4 ], path: [ 'a', 'arr' ] }
-4. { item: { c: '1' }, path: [ 'a', 'b' ] }
-5. { item: 1, path: [ 'a', 'arr', 0 ] }
-6. { item: 2, path: [ 'a', 'arr', 1 ] }
-7. { item: 3, path: [ 'a', 'arr', 2 ] }
-8. { item: 4, path: [ 'a', 'arr', 3 ] }
+2. { item: { arr: [ 1, 2, 3, 4 ], b: { c: '1' } },        path: [ 'a' ] }
+3. { item: [ 1, 2, 3, 4 ],                                path: [ 'a', 'arr' ] }
+4. { item: { c: '1' },                                    path: [ 'a', 'b' ] }
+5. { item: 1,   path: [ 'a', 'arr', 0 ] }
+6. { item: 2,   path: [ 'a', 'arr', 1 ] }
+7. { item: 3,   path: [ 'a', 'arr', 2 ] }
+8. { item: 4,   path: [ 'a', 'arr', 3 ] }
 9. { item: '1', path: [ 'a', 'b', 'c' ] }
 ```
 
