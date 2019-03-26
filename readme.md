@@ -1,5 +1,7 @@
 # js-bfs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/whiteand/js-bfs.svg)](https://greenkeeper.io/)
+
 Package for breadth-first search on js value.
 
 # Install
