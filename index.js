@@ -48,5 +48,4 @@ function bfs(value, action) {
   }
 }
 
-// eslint-disable-next-line
 module.exports = { bfs };
