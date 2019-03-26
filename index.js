@@ -37,7 +37,7 @@ function bfs(value, action) {
       return
     }
 
-    if (!currentValue) continue;
+    if (!currentValue || isContinue === null) continue;
     if (Array.isArray(currentValue)) {
       agenda.push(...getArrayAgendaItems(currentValue, currentPath));
       continue

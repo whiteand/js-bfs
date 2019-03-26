@@ -1,0 +1,23 @@
+{
+  "name": "js-bfs",
+  "version": "1.0.1",
+  "description": "Breadth-first search for js value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whiteand/js-bfs.git"
+  },
+  "keywords": [
+    "bfs",
+    "js"
+  ],
+  "author": "AndrewBeletskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whiteand/js-bfs/issues"
+  },
+  "homepage": "https://github.com/whiteand/js-bfs#readme"
+}
